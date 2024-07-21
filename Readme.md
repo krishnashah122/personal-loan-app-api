@@ -15,6 +15,7 @@ This repository contains a set of APIs for personal loan application services li
   - [Running the Application](#running-the-application)
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 
 ## API Endpoints
 
@@ -125,7 +126,7 @@ This repository contains a set of APIs for personal loan application services li
 - This project uses the following folder structure:
 
     ```bash
-    financial-app-services-api/
+    personal-loan-app-api/
     ├── config/
     │   ├── config.js
     │   └── db.js
@@ -159,6 +160,47 @@ This repository contains a set of APIs for personal loan application services li
 - Express.js
 - JSON Web Tokens (JWT) for authentication
 - MongoDB
+
+## Screenshots
+
+### 1. Approve Application During Signup
+- When user enters valid data.
+![Screenshot 1](https://github.com/user-attachments/assets/a874d0d2-2381-4756-9b14-76a30787b7a9)
+![Screenshot 2](https://github.com/user-attachments/assets/63a621e4-1f47-426e-a7b4-bf7640102d26)
+
+- When user age is under 20.
+![Screenshot 3](https://github.com/user-attachments/assets/0f7e7e43-b1c6-48c6-a9e5-9c872d1fc7ac)
+
+- When user salary is less than 25k.
+![Screenshot 4](https://github.com/user-attachments/assets/85e72cdc-0c3a-4942-865d-fa67b02cfd3a)
+
+- When user age is under 20 and salary is less than 25k.
+![Screenshot 5](https://github.com/user-attachments/assets/ac54bb77-c86d-406d-9bd2-9675b76a467b)
+
+### 2. Login API
+- When user enters correct login credentials.
+![Screenshot 1](https://github.com/user-attachments/assets/c71737bf-0b61-4cf1-89a3-8725b420aa3f)
+
+- When user enters wrong email address.
+![Screenshot 2](https://github.com/user-attachments/assets/1ab2e471-bc1f-4c60-a88b-3cb0911e8631)
+
+- When user enters wrong password.
+![Screenshot 3](https://github.com/user-attachments/assets/18a6ef59-8467-4dd7-a2cd-dc5dd304fb5c)
+
+### 3. Show User Data
+- When user is logged in and try to access his/her details.
+![Screenshot 1](https://github.com/user-attachments/assets/eaeb52b8-742d-4271-aeb8-4c9e5ad9c848)
+
+- When user is not logged in and try to access his/her details.
+![Screenshot 2](https://github.com/user-attachments/assets/439fbd6c-ac37-4a8d-bd74-8173704f8642)
+
+### 4. Borrow Money API
+- When user has enough purchasing power to borrow money.
+![Screenshot 1](https://github.com/user-attachments/assets/a22e3f71-874d-480e-9538-cb4abd9385d8)
+![Screenshot 2](https://github.com/user-attachments/assets/7f0642e7-bce5-48ff-bb36-1bf1dbd12f02)
+
+- When user don't have enough purchasing power to borrow money.
+![Screenshot 3](https://github.com/user-attachments/assets/4a3feb18-e597-4e19-b18d-54c896f1bb85)
 
 ---
 
